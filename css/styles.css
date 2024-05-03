@@ -661,9 +661,10 @@ button:focus {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
+  border: none;
   fill: #ffffff;
   background-color: var(--pressed--state--ocean);
-  border: none;
+  
 }
 
 .button-icon-close {
