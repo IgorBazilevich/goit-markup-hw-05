@@ -404,7 +404,76 @@
     </footer>
     <!-- MODAL OVERLAY -->
     <div class="modal-overlay is-open">
-        
+        <div class="modal">
+            <button class="modal-closw-btn" type="button">
+                <svg class="button-icon-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="modal-overlay-text">Leave your contacts and we will call you back</p>
+            <form class="form">
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="user-first-name" >Name</label>
+                        <input  
+                        class="form-field-input" 
+                        id="user-first-name" 
+                        type="text"
+                        name="user-first-name"
+                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']"
+                        title="Ihor"
+                        required
+                        > 
+                </div>
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="user-tel">Phone</label>
+                        <input 
+                        class="form-field-input" 
+                        id="user-tel" 
+                        type="tel" 
+                        name="user-tel"
+                        pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']" 
+                        title="Ihor" 
+                        required>
+                </div>
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="user-email" >Email</label>
+                    <input  
+                        class="form-field-input" 
+                        id="user-email" 
+                        type="email"
+                        name="user-email"
+                        title="email"
+                        required
+                        > 
+                </div>
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="" >Comment</label>
+                        <input  
+                        class="form-field-input" 
+                        id="" 
+                        type="text"
+                        name=""
+                        pattern=""
+                        title=""
+                        required
+                        > 
+                </div>
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="" >----</label>
+                        <input  
+                        class="form-field-input" 
+                        id="" 
+                        type="text"
+                        name=""
+                        pattern=""
+                        title=""
+                        placeholder="Text input"
+                        required
+                        > 
+                </div>
+                    
+            </form>
+        </div>
     </div>
 </body>
 
