@@ -729,9 +729,10 @@ button:focus {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--dark--navy--blue);
 }
 
-.form-field-input + .modal-icon {
+.form-field-input:focus + .modal-icon {
   fill: var(--primary--brand--iris);
 }
 
@@ -813,5 +814,6 @@ button:focus {
   cursor: pointer;
   background-color: var(--primary--brand--iris);
   border: none;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
